@@ -1,0 +1,19 @@
+.leaf__container{
+     /* position: absolute; */
+}
+
+.main_leaf{
+     width: 140px;
+     height: 140px;
+     border-radius: 50%;
+     position: relative;
+}
+
+.sub_leaf{
+     position: absolute;
+     top: 40px;
+     left: 10px;
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+}

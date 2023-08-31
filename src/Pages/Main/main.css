@@ -1,0 +1,62 @@
+.container {
+     margin-top: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+}
+
+.task__container {
+     padding: 20px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 70%;
+     min-width: 750px;
+}
+
+@media(max-width:768px) {
+     .task__container {
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 50px;
+          width: 100%;
+          min-width: 300px;
+     }
+}
+
+.subCircle_design {
+     position: absolute;
+     top: -32px;
+     left: -32px;
+     z-index: -1;
+}
+
+.MainCircle_design {
+     position: absolute;
+     top: -39px;
+     left: -39px;
+     z-index: -1;
+}
+
+.healthcare__main {
+     position: absolute;
+     top: 24%;
+     left: 23.5%;
+     transform: rotate(45deg);
+}
+
+.healthcare__sub {
+     position: absolute;
+     top: 62px;
+     left: 64px;
+     transform: rotate(-45deg);
+     z-index: 9999;
+}
+
+.task__section {
+     position: relative;
+}

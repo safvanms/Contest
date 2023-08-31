@@ -1,0 +1,41 @@
+.sqr_flower_container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     gap:1px;
+     transform: rotate(45deg);
+}
+
+.sqr_flower_fetal{
+     width: 48%;
+     height: 48%;
+     background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sqr1 ,.inner1{
+     border-radius: 50px 50px 0px 50px;
+}
+
+.sqr2 ,.inner2{
+     border-radius: 50px 50px 50px 0px;
+}
+
+.sqr3 , .inner3{
+     border-radius: 50px 0px 50px 50px;
+}
+
+.sqr4,.inner4{
+     border-radius: 0px 50px 50px 50px;
+}
+
+.inner_fetal{
+     width: 50%;
+     height: 50%;
+     opacity: 0.5;
+     /* background:linear-gradient(to right ,yellow, rgb(255, 255, 255) ,rgb(255, 255, 0)) !important; */
+}
+

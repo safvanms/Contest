@@ -1,0 +1,113 @@
+.flower_container {
+     width: 300px;
+     height: 300px;
+     background-color: #a50011;
+     position: relative;
+     border-radius: 50%;
+     transform: rotate(10deg);
+}
+
+
+.petals {
+     position: absolute;
+}
+
+.petal1 {
+     top: 4.5%;
+     left: 62px;
+     transform: rotate(329deg);
+}
+
+.petal2 {
+     top: 16.5%;
+     left: 23px;
+     transform: rotate(305deg);
+}
+
+.petal3 {
+     top: 32%;
+     left: 2px;
+     transform: rotate(283deg);
+}
+
+.petal4 {
+     top: 49.5%;
+     left: 2px;
+     transform: rotate(258deg);
+}
+
+.petal5 {
+     top: 65.5%;
+     left: 21px;
+     transform: rotate(235deg);
+}
+
+.petal6 {
+     top: 78%;
+     left: 59px;
+     transform: rotate(209deg);
+}
+
+.petal7 {
+     top: 83.2%;
+     left: 110px;
+     transform: rotate(183deg);
+}
+
+.petal8 {
+     top: 81%;
+     left: 165px;
+     transform: rotate(163deg);
+}
+
+.petal9 {
+     top: 72%;
+     left: 211px;
+     transform: rotate(140deg);
+}
+
+.petal10 {
+     top: 59%;
+     left: 240px;
+     transform: rotate(112deg);
+}
+
+.petal11 {
+     top: 44%;
+     left: 250px;
+     transform: rotate(97deg);
+}
+
+.petal12 {
+     top: 28%;
+     left: 244px;
+     transform: rotate(70deg);
+}
+
+.petal13 {
+     top: 14%;
+     left: 219px;
+     transform: rotate(50deg);
+}
+
+.petal14 {
+     top: 4%;
+     left: 174px;
+     transform: rotate(24deg);
+}
+
+.petal15 {
+     top: 0%;
+     left: 120px;
+     transform: rotate(0deg);
+}
+
+.inner_circle {
+     width: 215px;
+     height: 215px;
+     border-radius: 50%;
+     background-color: green;
+     position: absolute;
+     top: 14.5%;
+     left: 14%;
+}

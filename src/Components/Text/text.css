@@ -1,0 +1,21 @@
+
+.text__section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 6px;
+     padding: 10px;
+}
+
+
+h1 {
+     font-size: 40px;
+     font-weight: bolder;
+}
+
+.quote {
+     border-bottom: 1px solid #bbbb;
+     width: 340px;
+     text-align: center;
+     padding-bottom: 7px;
+}

@@ -1,0 +1,74 @@
+.SubCircle_main_circle{
+     width: 220px;
+     height: 220px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #ae1122;
+     border-radius: 50%;
+}
+
+.subCircle_inner_circle{
+     width: 150px;
+     height: 150px;
+     background-color: white;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+     transform: rotate(25deg);
+}
+
+.subCricle_line{
+     height: 60px;
+     width: 220px;
+     overflow: visible;
+     position: absolute;
+     border-radius: 50%;
+}
+
+.subCircle1{
+     transform: rotate(20deg);
+     background-color: yellow;
+}
+
+.subCircle2{
+     transform: rotate(40deg);
+     background-color: orange;
+}
+
+.subCircle3{
+     transform: rotate(60deg);
+     background-color: red;
+}
+
+.subCircle4{
+     transform: rotate(80deg);
+     background-color: yellow;
+}
+
+.subCircle5{
+     transform: rotate(100deg);
+     background-color: orange;
+}
+
+.subCircle6{
+     transform: rotate(120deg);
+     background-color: red;
+}
+
+.subCircle7{
+     transform: rotate(140deg);
+     background-color: yellow;
+}
+
+.subCircle8{
+     transform: rotate(160deg);
+     background-color: orange;
+}
+
+.subCircle9{
+     transform: rotate(180deg);
+     background-color: red;
+}
